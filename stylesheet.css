@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+    
+    .header-content {
+    width: 74vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.line {
+    width:100%; 
+    margin:0 auto; 
+    border-top: 4.5px solid #7d97ad;
+    position: relative;
+    top: 20px;
+}
+
+.logo {
+    float: left;
+}
+
+.name {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+    color: #2d3c49;
+    font-size: 4vw;
+    font-weight: 500;
+}
+    
+.title {
+    font-family: 'Maven Pro', sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+    color: #2d3c49;
+    font-size: 1.9vw;
+    font-weight: bold;
+}
+    
+.header-text {
+    text-align: right;
+}
+
+.row0 {
+    display: flex;
+}
+    
+.column0 {
+    flex: 100%;
+    padding: 5px;
+    margin-top: 40px;
+    vertical-align: middle;
+}
+
+.row1 {
+    display: flex;
+}
+
+.column1 {
+
+    padding-top: 20px;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* html image below the heaader*/
+.column1 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.row2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: 'Maven Pro', sans-serif;
+    text-transform: capitalize;
+    font-style: normal;
+    color: #8c8b8b;
+    font-size: 2em;
+}
+
+.row3 {
+    position: relative;
+}
+
+.column3 {
+    flex: 100%;
+    padding: 5px;
+    text-align: center
+}
+
+.column3 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.caption {
+    position: relative;
+    top: 10px;
+    font-family: 'Maven Pro', sans-serif;
+    text-transform: capitalize;
+    font-style: normal;
+    font-size: 2em;
+    color: #2d3c49;
+}
+
+.footer {
+    position: relative;
+    top: 10px;
+    font-family: 'Maven Pro', sans-serif;
+    font-style: normal;
+}
+
+/* add breakpoint @ 768px */
+@media screen and (min-width:768px) { 
+    .row1 {
+        display: flex;
+    }
+    
+    .column1 {
+        flex: 100%;
+        padding-top: 20px;
+    }
+    
+    .row2 {
+        text-align: left;
+        position: relative;
+        left: 20px;
+        top: 20px;
+        font-size: 2.5em;
+    }
+    
+    .row3 {
+        display: flex;
+        position: relative;
+        top: 20px;
+    }
+    
+    /* Create three equal columns that sits next to each other */
+    .column3 {
+        flex: 33.33%;
+        padding: 5px;
+        text-align: center
+    }
+
+    .caption {
+        position: relative;
+        top: 10px;
+        font-size: 2.5em;
+    }
+    
+    .footer {
+        position: relative;
+        top: 10px;
+    }
+}

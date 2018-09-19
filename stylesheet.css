@@ -6,7 +6,7 @@
     justify-content: space-between;
 }
     
-    .header-content {
+.header-content {
     width: 74vw;
     margin-left: auto;
     margin-right: auto;
@@ -18,10 +18,6 @@
     border-top: 4.5px solid #7d97ad;
     position: relative;
     top: 20px;
-}
-
-.logo {
-    float: left;
 }
 
 .name {
@@ -51,7 +47,10 @@
 }
     
 .column0 {
+    display:flex;
     flex: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
     padding: 5px;
     margin-top: 40px;
     vertical-align: middle;
@@ -64,7 +63,6 @@
 .column1 {
 
     padding-top: 20px;
-    display: block;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
